@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(150, 143, 135);
+    font-size: 3rem;
+    font-family: Arial, sans-serif;
+}
+.name {
+    display: flex;
+    gap: 15px;
+}
+.name {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    max-width: 90%;
+}
+.name i {
+    font-size: 5rem;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 1.5rem;
+    }
+    .name {
+        flex-direction: column;
+        align-items: center;
+    }
+    .name i {
+        font-size: 2rem;
+    }
+}
